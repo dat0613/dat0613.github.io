@@ -22,7 +22,7 @@ add_executable (CMakeTest "main.cpp")
 
 이를 플랫폼 별로 지정하기 위해서는
 
-```json
+```yaml
 # CMakeSetting.json
 {
   "configurations": [
@@ -45,7 +45,7 @@ add_executable (CMakeTest "main.cpp")
 
 `INCLUDE_DIRS` 변수를 `D:/git/vcpkg/installed/x64-windows/include`, `LIBRARY_DIRS` 변수를 `D:/git/vcpkg/installed/x64-windows/debug/lib`로 지정한다면
 
-```json
+```yaml
 "variables": [
     { 
       "name": "INCLUDE_DIRS",
